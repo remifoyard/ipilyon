@@ -12,6 +12,13 @@
 <body>
   <h1>TP PHP</h1><br>
   <?php
+  //CONNEXION BDD
+  $host = "localhost"; $user = "root"; $password = "root"; $base = "formation_php";
+  $link = mysqli_connect ($host, $user, $password, $base) or die("Impossible de se connecter au serveur de bases de donn�es.");
+
+  var_dump($link);
+  //FIN CONNEXION
+
   $date_actu=date('Y-m-d');
   $annee = date('Y');
   $mois = date('m');
@@ -66,7 +73,7 @@ else {
     <input type="text" name="nom" value="" />
     <input type="text" name="arg" value="" />
     <input type="submit" value="Valider" />
-  </form>  
+  </form>
     <?php
 }
 //TABLE DE MULTIPLICATION DE 7

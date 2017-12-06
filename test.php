@@ -22,7 +22,7 @@
         <div class="width_1000">
             <p>06 00 00 00 00</p>
             <p>-</p>
-            <p>REMI.FOYARD@....test2.COM</p>
+            <p>REMI.FOYARD@....test3.COM</p>
             <p>-</p>
             <address>Mon adresse</address>
             <p>-</p>
